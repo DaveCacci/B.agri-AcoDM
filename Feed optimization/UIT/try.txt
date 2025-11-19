@@ -1,0 +1,35 @@
+@echo off
+
+rem Specify the directory where the output log and timestamp file will be stored
+set LOG_DIR=C:\\Users\\lenovo\\Desktop\\KINGSTON
+
+rem Generate a timestamp (YYYY-MM-DD_HH-MM-SS)
+for /f "tokens=1-3 delims=/ " %%a in ('date /t') do (
+    set "MONTH=%%a"
+    set "DAY=%%b"
+    set "YEAR=%%c"
+)
+
+for /f "tokens=1-3 delims=:." %%a in ('echo %TIME%') do (
+    set "HOUR=%%a"
+    set "MINUTE=%%b"
+    set "SECOND=%%c"
+)
+
+rem Print the values
+echo MONTH=%MONTH%
+echo DAY=%DAY%
+echo YEAR=%YEAR%
+echo HOUR=%HOUR%
+echo MINUTE=%MINUTE%
+echo SECOND=%SECOND%
+
+rem Create a text file with the timestamp in the specified directory
+set TIMESTAMP=%YEAR%-%MONTH%-%DAY%_%HOUR%-%MINUTE%-%SECOND%
+set LOG_FILE=%LOG_DIR%\\output_%TIMESTAMP%.log
+
+rem Run your Python script and redirect output to a file with timestamp in the specified directory
+python C:\\Users\\lenovo\\OneDrive - Politecnico di Milano\\Work_cloud\\DOTTORATO\\Modelling\\Pilot_plant\\Feed optimization\\UIT\\try_bat_out.py > %LOG_FILE% 2>&1
+
+rem Create a text file with the timestamp in the specified directory
+echo %TIMESTAMP% > %LOG_DIR%\\timestamp3.txt
