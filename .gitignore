@@ -163,6 +163,7 @@ cython_debug/
 *.mp4
 *.lic
 *.LIC
+*.gz
 
 #Subfolders
 Private/
@@ -180,6 +181,5 @@ Pilot_plant_steady/
 Plant_Wide_Model/
 Reinit_blocks/
 VectorStreams/
-Sensitivity_ParameterSweep/
 
 

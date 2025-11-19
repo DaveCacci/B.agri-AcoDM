@@ -1,0 +1,7 @@
+loadModel(Modelica, {"4.0.0"}); getErrorString(); 
+
+loadFile("C:/Users/lenovo/Dropbox/2024 - GiuliaQuarta M.Thesis/Modelica Models/ADM1_QC_batchmodels.mo"); getErrorString(); 
+
+setCommandLineOptions(""); getErrorString(); 
+
+simulate(ADM1_P.Batch_Propionate_3gCOD_April_DC_, startTime = 14504400, stopTime=17280000.0, numberOfIntervals=3084, tolerance = 1e-5, simflags = "-lv=LOG_STATS"); getErrorString();

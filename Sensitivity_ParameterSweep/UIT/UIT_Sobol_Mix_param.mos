@@ -1,0 +1,31 @@
+loadModel(Modelica, {"4.0.0"}); getErrorString(); 
+
+        loadFile("C:/Users/lenovo/Dropbox/2024 - GiuliaQuarta M.Thesis/Modelica Models/ADM1_QC_batchmodels.mo"); getErrorString(); 
+
+        setCommandLineOptions(""); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, k_hyd_xchr, 2.546484375); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, k_hyd_xchm, 0.5867578124999999); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, k_hyd_xchs, 0.02208984375); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, k_hyd_xprr, 2.905078125); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, k_hyd_xprs, 0.066328125); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, k_hyd_xli, 0.5677734375); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, k_m_su, 22.55859375); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, k_m_aa, 99.70703125); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, k_m_c4, 30.5078125); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, k_m_pro, 17.087890625); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, k_m_ac, 14.453125); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, Ks_ac, 0.13201171875); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, Ki_nh3_ac, 0.008651953125); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, Ki_hac_ac, 4.577890625); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, Ki_hpro_pro, 10.717265625); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, kla, 5.52734375); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, k_m_h2, 26.728515625); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, Ki_h2_c4, 1.1332031250000001e-05); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, Ks_pro, 0.36931640625); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, Ks_h2, 1.3691015624999998e-05); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, Ks_c4, 0.4502343750000001); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, Ki_h2_pro, 3.6708984375e-06); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, Ks_su, 0.2923828125); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, pH_UL_ac, 8.8372265625); getErrorString(); 
+setParameterValue(ADM1_P.Sensitivity_Sobol_UIT, pH_LL_ac, 6.4371093749999995); getErrorString(); 
+simulate(ADM1_P.Sensitivity_Sobol_UIT, stopTime=14508000.0, numberOfIntervals=4030, tolerance = 1e-5, simflags = "-lv=LOG_STATS"); getErrorString();

@@ -1,0 +1,30 @@
+loadModel(Modelica, {"4.0.0"}); getErrorString(); 
+
+        loadFile("C:/Users/lenovo/Dropbox/2024 - GiuliaQuarta M.Thesis/Modelica Models/ADM1_X_14_03_2024_batch_GQ.mo"); getErrorString(); 
+
+        setCommandLineOptions(""); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, k_hyd_xchr, 1.0); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, k_hyd_xchm, 0.3); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, k_hyd_xchs, 0.01); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, k_hyd_xprr, 1.0); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, k_hyd_xprs, 0.2); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, k_hyd_xli, 0.3); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, k_m_su, 30.0); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, k_m_aa, 50.0); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, k_m_c4, 20.0); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, k_m_pro, 13.0); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, k_m_ac, 8.0); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, Ks_ac, 0.15); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, Ki_nh3_ac, 0.0018); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, Ki_hac_ac, 2.2); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, Ki_hpro_pro, 2.2); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, kla_batch, 10.0); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, k_m_h2, 35.0); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, Ki_h2_c4, 1e-05); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, Ks_pro, 0.15); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, Ks_h2, 7e-06); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, Ks_c4, 0.2); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, Ki_h2_pro, 3.5e-06); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, Ks_su, 0.5); getErrorString(); 
+setParameterValue(ADM1_P.Batch_Propionate_6gCOD_April_DC_, pH_UL_ac, 7.07); getErrorString(); 
+simulate(ADM1_P.Batch_Propionate_6gCOD_April_DC_, startTime = 14504400, stopTime=17280000.0, numberOfIntervals=3084, tolerance = 1e-5, simflags = "-lv=LOG_STATS"); getErrorString();

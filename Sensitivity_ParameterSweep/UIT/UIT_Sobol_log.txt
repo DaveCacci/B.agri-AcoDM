@@ -1,0 +1,149 @@
+true
+""
+true
+"[C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_13_12_2023_varpump_gasbag.mo:5190:277-5190:281:writable] Warning: Lexer treating \\ as \\\\, since \\U is not a valid Modelica escape sequence.
+[C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_13_12_2023_varpump_gasbag.mo:5190:277-5190:287:writable] Warning: Lexer treating \\ as \\\\, since \\l is not a valid Modelica escape sequence.
+[C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_13_12_2023_varpump_gasbag.mo:5190:277-5190:294:writable] Warning: Lexer treating \\ as \\\\, since \\O is not a valid Modelica escape sequence.
+[C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_13_12_2023_varpump_gasbag.mo:5190:277-5190:327:writable] Warning: Lexer treating \\ as \\\\, since \\W is not a valid Modelica escape sequence.
+[C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_13_12_2023_varpump_gasbag.mo:5190:277-5190:338:writable] Warning: Lexer treating \\ as \\\\, since \\D is not a valid Modelica escape sequence.
+[C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_13_12_2023_varpump_gasbag.mo:5190:277-5190:348:writable] Warning: Lexer treating \\ as \\\\, since \\M is not a valid Modelica escape sequence.
+[C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_13_12_2023_varpump_gasbag.mo:5190:277-5190:358:writable] Warning: Lexer treating \\ as \\\\, since \\P is not a valid Modelica escape sequence.
+Notification: You can install the requested package using one of the commands:
+  installPackage(Modelica_LinearSystems2, \"2.4.0\", exactMatch=false)
+  installPackage(Modelica_LinearSystems2, \"2.4.0\", exactMatch=true).
+Notification: Skipped loading package Modelica_LinearSystems2 (2.4.0,default) using MODELICAPATH C:/Users/lenovo/AppData/Roaming/.openmodelica/libraries/ (uses-annotation may be wrong).
+"
+true
+""
+
+Linear iteration variables with predefined start attributes that are unrelevant in NLSJac2. (1)
+========================================
+1: nominal.uit.maize.S_co3:VARIABLE(start = 0.0 fixed = false )  type: Real
+
+Info: Only non-linear iteration variables in non-linear eqation systems require start values. All other start values have no influence on convergence and are ignored. Use "-d=dumpLoops" to show all loops. In OMEdit Tools->Options->Simulation->Additional Translation Flags, in OMNotebook call setCommandLineOptions("-d=dumpLoops")
+
+
+Linear iteration variables with predefined start attributes that are unrelevant in NLSJac3. (1)
+========================================
+1: nominal.uit.tomatosouce.S_co3:VARIABLE(start = 0.0 fixed = false )  type: Real
+
+Info: Only non-linear iteration variables in non-linear eqation systems require start values. All other start values have no influence on convergence and are ignored. Use "-d=dumpLoops" to show all loops. In OMEdit Tools->Options->Simulation->Additional Translation Flags, in OMNotebook call setCommandLineOptions("-d=dumpLoops")
+
+
+Linear iteration variables with predefined start attributes that are unrelevant in NLSJac4. (1)
+========================================
+1: nominal.uit.eggpasta.S_co3:VARIABLE(start = 0.0 fixed = false )  type: Real
+
+Info: Only non-linear iteration variables in non-linear eqation systems require start values. All other start values have no influence on convergence and are ignored. Use "-d=dumpLoops" to show all loops. In OMEdit Tools->Options->Simulation->Additional Translation Flags, in OMNotebook call setCommandLineOptions("-d=dumpLoops")
+
+
+Linear iteration variables with predefined start attributes that are unrelevant in NLSJac5. (1)
+========================================
+1: nominal.uit.semolina.S_co3:VARIABLE(start = 0.0 fixed = false )  type: Real
+
+Info: Only non-linear iteration variables in non-linear eqation systems require start values. All other start values have no influence on convergence and are ignored. Use "-d=dumpLoops" to show all loops. In OMEdit Tools->Options->Simulation->Additional Translation Flags, in OMNotebook call setCommandLineOptions("-d=dumpLoops")
+
+
+Linear iteration variables with predefined start attributes that are unrelevant in NLSJac6. (1)
+========================================
+1: nominal.uit.slurry.S_co3:VARIABLE(start = 0.0 fixed = false )  type: Real
+
+Info: Only non-linear iteration variables in non-linear eqation systems require start values. All other start values have no influence on convergence and are ignored. Use "-d=dumpLoops" to show all loops. In OMEdit Tools->Options->Simulation->Additional Translation Flags, in OMNotebook call setCommandLineOptions("-d=dumpLoops")
+
+
+Linear iteration variables with predefined start attributes that are unrelevant in NLSJac9. (1)
+========================================
+1: nominal.uit.maize.S_co3:VARIABLE(start = 0.0 fixed = false )  type: Real
+
+Info: Only non-linear iteration variables in non-linear eqation systems require start values. All other start values have no influence on convergence and are ignored. Use "-d=dumpLoops" to show all loops. In OMEdit Tools->Options->Simulation->Additional Translation Flags, in OMNotebook call setCommandLineOptions("-d=dumpLoops")
+
+
+Linear iteration variables with predefined start attributes that are unrelevant in NLSJac10. (1)
+========================================
+1: nominal.uit.tomatosouce.S_co3:VARIABLE(start = 0.0 fixed = false )  type: Real
+
+Info: Only non-linear iteration variables in non-linear eqation systems require start values. All other start values have no influence on convergence and are ignored. Use "-d=dumpLoops" to show all loops. In OMEdit Tools->Options->Simulation->Additional Translation Flags, in OMNotebook call setCommandLineOptions("-d=dumpLoops")
+
+
+Linear iteration variables with predefined start attributes that are unrelevant in NLSJac11. (1)
+========================================
+1: nominal.uit.eggpasta.S_co3:VARIABLE(start = 0.0 fixed = false )  type: Real
+
+Info: Only non-linear iteration variables in non-linear eqation systems require start values. All other start values have no influence on convergence and are ignored. Use "-d=dumpLoops" to show all loops. In OMEdit Tools->Options->Simulation->Additional Translation Flags, in OMNotebook call setCommandLineOptions("-d=dumpLoops")
+
+
+Linear iteration variables with predefined start attributes that are unrelevant in NLSJac12. (1)
+========================================
+1: nominal.uit.semolina.S_co3:VARIABLE(start = 0.0 fixed = false )  type: Real
+
+Info: Only non-linear iteration variables in non-linear eqation systems require start values. All other start values have no influence on convergence and are ignored. Use "-d=dumpLoops" to show all loops. In OMEdit Tools->Options->Simulation->Additional Translation Flags, in OMNotebook call setCommandLineOptions("-d=dumpLoops")
+
+
+Linear iteration variables with predefined start attributes that are unrelevant in NLSJac13. (1)
+========================================
+1: nominal.uit.slurry.S_co3:VARIABLE(start = 0.0 fixed = false )  type: Real
+
+Info: Only non-linear iteration variables in non-linear eqation systems require start values. All other start values have no influence on convergence and are ignored. Use "-d=dumpLoops" to show all loops. In OMEdit Tools->Options->Simulation->Additional Translation Flags, in OMNotebook call setCommandLineOptions("-d=dumpLoops")
+
+record SimulationResult
+    resultFile = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/Sensitivity_ParameterSweep/UIT/ADM1_P.Sensitivity_Sobol_UIT_res.mat",
+    simulationOptions = "startTime = 0.0, stopTime = 7776000.0, numberOfIntervals = 2160, tolerance = 1e-06, method = 'dassl', fileNamePrefix = 'ADM1_P.Sensitivity_Sobol_UIT', options = '', outputFormat = 'mat', variableFilter = '.*', cflags = '', simflags = '-lv=LOG_STATS'",
+    messages = "stdout            | info    | ... loading \"Input_MaizeSilage\" from \"C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Sperimentazione UIT/CombiTimeTables UIT/UIT_MaizeSilage_highvfa.txt\"
+stdout            | info    | ... loading \"Input_CattleSlurry\" from \"C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Sperimentazione UIT/CombiTimeTables UIT/UIT_CattleSlurry.txt\"
+stdout            | info    | ... loading \"Input_TomatoSouce\" from \"C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Sperimentazione UIT/CombiTimeTables UIT/UIT_TomatoSouce_nir_CampoLargocomp.txt\"
+stdout            | info    | ... loading \"Input_EggPasta\" from \"C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Sperimentazione UIT/CombiTimeTables UIT/UIT_EggPasta.txt\"
+stdout            | info    | ... loading \"Input_Semolina\" from \"C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Sperimentazione UIT/CombiTimeTables UIT/UIT_Semolina.txt\"
+stdout            | info    | ... loading \"Input_CattleSlurry\" from \"C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Sperimentazione UIT/CombiTimeTables UIT/UIT_CattleSlurry_real.txt\"
+stdout            | info    | ... loading \"Flowrates\" from \"C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Sperimentazione UIT/CombiTimeTables UIT/Manual_flowrates_real_R2.txt\"
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_STATS         | info    | ### STATISTICS ###
+|                 | |       | | timer
+|                 | |       | | |    0.0759583s          reading init.xml
+|                 | |       | | |    0.0107478s          reading info.xml
+|                 | |       | | |    0.0034538s [  0.0%] pre-initialization
+|                 | |       | | |    0.0118935s [  0.1%] initialization
+|                 | |       | | |    0.0015796s [  0.0%] steps
+|                 | |       | | |      1.96345s [  9.9%] solver (excl. callbacks)
+|                 | |       | | |     0.239875s [  1.2%] creating output-file
+|                 | |       | | |     0.185012s [  0.9%] event-handling
+|                 | |       | | |    0.0121834s [  0.1%] overhead
+|                 | |       | | |      17.4243s [ 87.8%] simulation
+|                 | |       | | |      19.8417s [100.0%] total
+|                 | |       | | events
+|                 | |       | | |  1396 state events
+|                 | |       | | |    91 time events
+|                 | |       | | solver: dassl
+|                 | |       | | | 62275 steps taken
+|                 | |       | | | 82916 calls of functionODE
+|                 | |       | | | 19777 evaluations of jacobian
+|                 | |       | | |  1478 error test failures
+|                 | |       | | |    11 convergence test failures
+|                 | |       | | | 15.0516s time of jacobian evaluation
+LOG_SUCCESS       | info    | The simulation finished successfully.
+",
+    timeFrontend = 0.3631587,
+    timeBackend = 5.6181895,
+    timeSimCode = 0.8482038,
+    timeTemplates = 0.6623904,
+    timeCompile = 6.8915899,
+    timeSimulation = 20.0153257,
+    timeTotal = 34.4003519
+end SimulationResult;
+"Notification: You can install the requested package using one of the commands:
+  installPackage(Modelica_LinearSystems2, \"2.4.0\", exactMatch=false)
+  installPackage(Modelica_LinearSystems2, \"2.4.0\", exactMatch=true).
+Notification: Skipped loading package Modelica_LinearSystems2 (2.4.0,default) using MODELICAPATH C:/Users/lenovo/AppData/Roaming/.openmodelica/libraries/ (uses-annotation may be wrong).
+Warning: Assuming fixed start value for the following 6 variables:
+         nominal.ISE:VARIABLE(start = 0.0 fixed = true )  type: Real
+         nominal.tfr:DISCRETE(fixed = true )  type: Real
+         nominal.sin_maize.phi:VARIABLE(start = 0.0 unit = \"rad\" fixed = true )  \"Phase of the sine wave\" type: Real
+         nominal.sin_slurry.phi:VARIABLE(start = 0.0 unit = \"rad\" fixed = true )  \"Phase of the sine wave\" type: Real
+         nominal.sin_tomato.phi:VARIABLE(start = 0.0 unit = \"rad\" fixed = true )  \"Phase of the sine wave\" type: Real
+         nominal.pump_onoff.tfr_pump:DISCRETE(fixed = true )  type: Real
+Notification: Invalid unit expression ‘kmol_i/kgCOD‘.
+Notification: Invalid unit expression ‘%TS‘.
+Notification: Invalid unit expression ‘%Cell‘.
+Notification: Invalid unit expression ‘%Hemicell‘.
+Notification: Invalid unit expression ‘%VS‘.
+Notification: Invalid unit expression ‘%Protein‘.
+"
