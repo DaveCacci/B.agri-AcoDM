@@ -1,7 +1,0 @@
-loadModel(Modelica, {"4.0.0"}); getErrorString(); 
-
-loadFile("C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo"); getErrorString(); 
-
-setCommandLineOptions(""); getErrorString(); 
-
-simulate(ADM1_P.UIT_real_R2_copia_compare_AM2HNtan_, simflags = "-lv=LOG_STATS"); getErrorString();

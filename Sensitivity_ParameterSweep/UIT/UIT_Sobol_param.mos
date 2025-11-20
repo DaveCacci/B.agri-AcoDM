@@ -1,7 +1,0 @@
-loadModel(Modelica, {"4.0.0"}); getErrorString(); 
-
-        loadFile("C:/Users/lenovo/Dropbox/2024 - GiuliaQuarta M.Thesis\Modelica Models/ADM1_X_14_03_2024_batch_DC.mo"); getErrorString(); 
-
-        setCommandLineOptions(""); getErrorString(); 
-setParameterValue(ADM1_P.Sensitivity_process_UIT, deltap, 0.5); getErrorString(); 
-simulate(ADM1_P.Sensitivity_process_UIT, stopTime=5184000.0, numberOfIntervals=1440, tolerance = 1e-5, simflags = "-lv=LOG_STATS"); getErrorString();
