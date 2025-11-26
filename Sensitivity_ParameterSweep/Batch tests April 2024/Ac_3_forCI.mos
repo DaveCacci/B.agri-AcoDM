@@ -1,7 +1,0 @@
-loadModel(Modelica, {"4.0.0"}); getErrorString(); 
-
-loadFile("C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo"); getErrorString(); 
-
-setCommandLineOptions(""); getErrorString(); 
-
-simulate(ADM1_P.Batch_Acetate_3gCOD_April_DC_, startTime = 14504400, stopTime=17280000.0, numberOfIntervals=3084, tolerance = 1e-5, simflags = "-lv=LOG_STATS"); getErrorString();
