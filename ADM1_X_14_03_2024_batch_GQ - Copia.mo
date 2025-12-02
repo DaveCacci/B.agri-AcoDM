@@ -13014,36 +13014,36 @@ end Atmosphere;
     parameter Boolean real = true;
     parameter Real solid_feeding_interval = 2*86400;
     Real tfr;
-    ////Nominal parameters
-    //  //parameter Real k_hyd_xchr = 1 "0.32566743895306743, 0.45, 1";
-    //  parameter Real k_hyd_xchm = 0.3 "0.42319302147680693 0.28,0.3";
-    //  parameter Real k_hyd_xchs = 0.01 "0.016324478692379397 0.011, 0.01";
-    //  parameter Real k_hyd_xprr = 0.7 "1 0.7448677043180438 1.24, 1";
-    //  parameter Real k_hyd_xprs = 0.2 "0.21758908555328108 0.19, 0.2";
-    //  parameter Real k_hyd_xli = 0.3 "0.35010790985270795 0.449, 0.3";
-    //  //parameter Real k_m_su = 30 "7.875631490240984 11, 30";
-    //  parameter Real k_m_aa = 50 "12.535480801087115 10, 50";
-    //  parameter Real k_m_c4 = 20 "16.696872722083715 14, 20";
-    //  //parameter Real k_m_pro = 13 "14.961292134394824 18.9, 13";
-    //    //parameter Real k_m_ac = 8 "3.2111508857602047 5.1, 5.6, 8";
-    //    //parameter Real Ks_ac = 0.15 "0.21231036725029 0.443583441 , 0.15";
-    //    //parameter Real Ki_nh3_ac = 0.0018 "0.00140997793843472 0.00125268, 0.0071428571";
-    //    //parameter Real Ki_hac_ac = 2.2 "2.9917458204406238 8.06841945 , 2.2";
-    //    //parameter Real Ki_hpro_pro = 2.2 "7.08317113463713 2.2, 2.2";
-    //  parameter Real kla_pilot = 10 "3.185356158754692 5.821084588, 10";
-    //  parameter Real kla = 10 "12.243650647046891 10,10";
-    //  //parameter Real kla_batch = 10 "Not used in this model. Declare just for python calibration purposes";
-    //  //parameter Real k_m_h2 = 35 "54.19240185230841 35";
-    //  //  //Added on 17.01.2024
-    //  parameter Real Ki_h2_c4 = 1e-5;
-    //  //parameter Real Ks_pro = 0.1 "0.7397859560206168 0.5, 0.15";
-    //  //  //Added on 22.01.2024
-    //  //parameter Real Ks_h2 = 7e-6 "1.119241977682233e-05 6.88E-06, 7e-6";
-    //  parameter Real Ks_c4 = 0.2 "0.14862982759843518 0.244986962, 0.1, 0.2";
-    //  //parameter Real Ki_h2_pro = 3.5e-6 "5.650678716932053e-06 4.65E-06, 3.5e-6";
-    //  //  //Added on 26.03.2024 for tentative calibration before PoliMi-UsM-UDM
-    //  parameter Real Ks_su = 0.5;
-    //  //parameter Real pH_UL_ac = 7;
+    //Nominal parameters
+      //parameter Real k_hyd_xchr = 1 "0.32566743895306743, 0.45, 1";
+      parameter Real k_hyd_xchm = 0.3 "0.42319302147680693 0.28,0.3";
+      parameter Real k_hyd_xchs = 0.01 "0.016324478692379397 0.011, 0.01";
+      parameter Real k_hyd_xprr = 0.7 "1 0.7448677043180438 1.24, 1";
+      parameter Real k_hyd_xprs = 0.2 "0.21758908555328108 0.19, 0.2";
+      parameter Real k_hyd_xli = 0.3 "0.35010790985270795 0.449, 0.3";
+      //parameter Real k_m_su = 30 "7.875631490240984 11, 30";
+      parameter Real k_m_aa = 50 "12.535480801087115 10, 50";
+      parameter Real k_m_c4 = 20 "16.696872722083715 14, 20";
+      //parameter Real k_m_pro = 13 "14.961292134394824 18.9, 13";
+        //parameter Real k_m_ac = 8 "3.2111508857602047 5.1, 5.6, 8";
+        //parameter Real Ks_ac = 0.15 "0.21231036725029 0.443583441 , 0.15";
+        //parameter Real Ki_nh3_ac = 0.0018 "0.00140997793843472 0.00125268, 0.0071428571";
+        //parameter Real Ki_hac_ac = 2.2 "2.9917458204406238 8.06841945 , 2.2";
+        //parameter Real Ki_hpro_pro = 2.2 "7.08317113463713 2.2, 2.2";
+      parameter Real kla_pilot = 10 "3.185356158754692 5.821084588, 10";
+      parameter Real kla = 10 "12.243650647046891 10,10";
+      //parameter Real kla_batch = 10 "Not used in this model. Declare just for python calibration purposes";
+      //parameter Real k_m_h2 = 35 "54.19240185230841 35";
+      //  //Added on 17.01.2024
+      parameter Real Ki_h2_c4 = 1e-5;
+      //parameter Real Ks_pro = 0.1 "0.7397859560206168 0.5, 0.15";
+      //  //Added on 22.01.2024
+      //parameter Real Ks_h2 = 7e-6 "1.119241977682233e-05 6.88E-06, 7e-6";
+      parameter Real Ks_c4 = 0.2 "0.14862982759843518 0.244986962, 0.1, 0.2";
+      //parameter Real Ki_h2_pro = 3.5e-6 "5.650678716932053e-06 4.65E-06, 3.5e-6";
+      //  //Added on 26.03.2024 for tentative calibration before PoliMi-UsM-UDM
+      parameter Real Ks_su = 0.5;
+      //parameter Real pH_UL_ac = 7;
     //  //PARAMETRI DA CALIBRAZIONE 04/07 (DE iterations by Giulia)
     ////  parameter Real k_hyd_xchr= 0.435278784;
     ////  parameter Real k_m_su=23.4132556;
@@ -13075,50 +13075,50 @@ end Atmosphere;
     //  parameter Real Ki_h2_pro=5.47E-06;
     //  parameter Real pH_UL_ac=7.48888;
     //PARAMETRI DA CALIBRAZIONE 26/07 (done by Davide with corrected 'hyperparameters' and Combi)
-    //  parameter Real k_hyd_xchr= 0.654105977345518;
-    //  parameter Real k_m_su=29.5230387359749;
-    //  parameter Real k_m_pro=5.289840719563;
-    //  parameter Real k_m_ac=4.90818614453702;
-    //  parameter Real Ks_ac=0.441003980200205;
-    //  parameter Real Ki_nh3_ac=0.00274048834778162;
-    //  parameter Real Ki_hac_ac=7.94406089183934;
-    //  parameter Real Ki_hpro_pro=3.26744250389993;
-    //  parameter Real kla_batch=1;
-    //  parameter Real Ks_pro=0.08;
-    //  parameter Real k_m_h2=21.3838200665712;
-    //  parameter Real Ks_h2=0.0000135448145481595;
-    //  parameter Real Ki_h2_pro=2.22379010526246E-06;
-    //  parameter Real pH_UL_ac=7.96322443907504;
+      parameter Real k_hyd_xchr= 0.654105977345518;
+      parameter Real k_m_su=29.5230387359749;
+      parameter Real k_m_pro=5.289840719563;
+      parameter Real k_m_ac=4.90818614453702;
+      parameter Real Ks_ac=0.441003980200205;
+      parameter Real Ki_nh3_ac=0.00274048834778162;
+      parameter Real Ki_hac_ac=7.94406089183934;
+      parameter Real Ki_hpro_pro=3.26744250389993;
+      parameter Real kla_batch=1;
+      parameter Real Ks_pro=0.08;
+      parameter Real k_m_h2=21.3838200665712;
+      parameter Real Ks_h2=0.0000135448145481595;
+      parameter Real Ki_h2_pro=2.22379010526246E-06;
+      parameter Real pH_UL_ac=7.96322443907504;
     //----------------------------------------------------------
     //From official first calibation 13.01.2024 solo pilot
-    parameter Real k_hyd_xchr = 0.45 "0.32566743895306743, 0.45, 1";
-    parameter Real k_hyd_xchm = 0.28 "0.42319302147680693 0.28,0.3";
-    parameter Real k_hyd_xchs = 0.011 "0.016324478692379397 0.011, 0.01";
-    parameter Real k_hyd_xprr = 1.24 "0.7448677043180438 1.24, 1";
-    parameter Real k_hyd_xprs = 0.19 "0.21758908555328108 0.19, 0.2";
-    parameter Real k_hyd_xli = 0.449 "0.35010790985270795 0.449, 0.3";
-    parameter Real k_m_su = 11 "7.875631490240984 11, 30";
-    parameter Real k_m_aa = 10 "12.535480801087115 10, 50";
-    parameter Real k_m_c4 = 14 "16.696872722083715 14, 20";
-    parameter Real k_m_pro = 18.9 "14.961292134394824 18.9, 13";
-    parameter Real k_m_ac = 5.1 "3.2111508857602047 5.1, 5.6, 8";
-    parameter Real Ks_ac = 0.443583441 "0.21231036725029 0.443583441 , 0.15";
-    parameter Real Ki_nh3_ac = 0.00125268 "0.00140997793843472 0.00125268, 0.0071428571";
-    parameter Real Ki_hac_ac = 8.06841945 "2.9917458204406238 8.06841945 , 2.2";
-    parameter Real Ki_hpro_pro = 2.2 "7.08317113463713 2.2, 2.2";
-    parameter Real kla = 5.821084588 "3.185356158754692 5.821084588, 10";
-    parameter Real kla_batch = 10 "12.243650647046891 10,10";
-    parameter Real k_m_h2 = 35 "54.19240185230841 35";
-    //Added on 17.01.2024
-    parameter Real Ki_h2_c4 = 1e-5 "";
-    parameter Real Ks_pro = 0.15 "0.7397859560206168 0.5, 0.15";
-    //Added on 22.01.2024
-    parameter Real Ks_h2 = 7e-6 "1.119241977682233e-05 6.88E-06, 7e-6";
-    parameter Real Ks_c4 = 0.2 "0.14862982759843518 0.244986962, 0.1, 0.2";
-    parameter Real Ki_h2_pro = 3.5e-6 "5.650678716932053e-06 4.65E-06, 3.5e-6";
-    //Added on 26.03.2024 for tentative calibration before PoliMi-UsM-UDM
-    parameter Real Ks_su = 0.5;
-    parameter Real pH_UL_ac = 7;
+  //  parameter Real k_hyd_xchr = 0.45 "0.32566743895306743, 0.45, 1";
+  //  parameter Real k_hyd_xchm = 0.28 "0.42319302147680693 0.28,0.3";
+  //  parameter Real k_hyd_xchs = 0.011 "0.016324478692379397 0.011, 0.01";
+  //  parameter Real k_hyd_xprr = 1.24 "0.7448677043180438 1.24, 1";
+  //  parameter Real k_hyd_xprs = 0.19 "0.21758908555328108 0.19, 0.2";
+  //  parameter Real k_hyd_xli = 0.449 "0.35010790985270795 0.449, 0.3";
+  //  parameter Real k_m_su = 11 "7.875631490240984 11, 30";
+  //  parameter Real k_m_aa = 10 "12.535480801087115 10, 50";
+  //  parameter Real k_m_c4 = 14 "16.696872722083715 14, 20";
+  //  parameter Real k_m_pro = 18.9 "14.961292134394824 18.9, 13";
+  //  parameter Real k_m_ac = 5.1 "3.2111508857602047 5.1, 5.6, 8";
+  //  parameter Real Ks_ac = 0.443583441 "0.21231036725029 0.443583441 , 0.15";
+  //  parameter Real Ki_nh3_ac = 0.00125268 "0.00140997793843472 0.00125268, 0.0071428571";
+  //  parameter Real Ki_hac_ac = 8.06841945 "2.9917458204406238 8.06841945 , 2.2";
+  //  parameter Real Ki_hpro_pro = 2.2 "7.08317113463713 2.2, 2.2";
+  //  parameter Real kla = 5.821084588 "3.185356158754692 5.821084588, 10";
+  //  parameter Real kla_batch = 10 "12.243650647046891 10,10";
+  //  parameter Real k_m_h2 = 35 "54.19240185230841 35";
+  //  //Added on 17.01.2024
+  //  parameter Real Ki_h2_c4 = 1e-5 "";
+  //  parameter Real Ks_pro = 0.15 "0.7397859560206168 0.5, 0.15";
+  //  //Added on 22.01.2024
+  //  parameter Real Ks_h2 = 7e-6 "1.119241977682233e-05 6.88E-06, 7e-6";
+  //  parameter Real Ks_c4 = 0.2 "0.14862982759843518 0.244986962, 0.1, 0.2";
+  //  parameter Real Ki_h2_pro = 3.5e-6 "5.650678716932053e-06 4.65E-06, 3.5e-6";
+  //  //Added on 26.03.2024 for tentative calibration before PoliMi-UsM-UDM
+  //  parameter Real Ks_su = 0.5;
+  //  parameter Real pH_UL_ac = 7;
     //----------------------------------------------------------
     //From last calibration pilot+batch 23.01.2024
     //  parameter Real k_hyd_xchr = 0.1684696193528361;
@@ -15036,35 +15036,35 @@ end Atmosphere;
     //    parameter Real Ks_su = 0.5;
     //    parameter Real pH_UL_ac = 7;
     //Nominal parameters
-    parameter Real k_hyd_xchr = 1 "0.32566743895306743, 0.45, 1";
-    parameter Real k_hyd_xchm = 0.3 "0.42319302147680693 0.28,0.3";
-    parameter Real k_hyd_xchs = 0.01 "0.016324478692379397 0.011, 0.01";
-    parameter Real k_hyd_xprr = 1 "0.7448677043180438 1.24, 1 PD it should have been set to 0.7 during calib.."; 
-    parameter Real k_hyd_xprs = 0.2 "0.21758908555328108 0.19, 0.2";
-    parameter Real k_hyd_xli = 0.3 "0.35010790985270795 0.449, 0.3";
-    parameter Real k_m_su = 30 "7.875631490240984 11, 30";
-    parameter Real k_m_aa = 50 "12.535480801087115 10, 50";
-    parameter Real k_m_c4 = 20 "16.696872722083715 14, 20";
-    parameter Real k_m_pro = 13 "14.961292134394824 18.9, 13";
-    parameter Real k_m_ac = 8 "3.2111508857602047 5.1, 5.6, 8";
-    parameter Real Ks_ac = 0.15 "0.21231036725029 0.443583441 , 0.15";
-    parameter Real Ki_nh3_ac = 0.0018 "0.00140997793843472 0.00125268, 0.0071428571";
-    parameter Real Ki_hac_ac = 2.2 "2.9917458204406238 8.06841945 , 2.2";
-    parameter Real Ki_hpro_pro = 2.2 "7.08317113463713 2.2, 2.2";
-    parameter Real kla_pilot = 10 "3.185356158754692 5.821084588, 10";
-    parameter Real kla = 10 "12.243650647046891 10,10";
-    parameter Real kla_batch = 10 "Not used in this model. Declare just for python calibration purposes";
-    parameter Real k_m_h2 = 35 "54.19240185230841 35";
-    //  //Added on 17.01.2024
-    parameter Real Ki_h2_c4 = 1e-5;
-    parameter Real Ks_pro = 0.1 "0.7397859560206168 0.5, 0.15";
-    //  //Added on 22.01.2024
-    parameter Real Ks_h2 = 7e-6 "1.119241977682233e-05 6.88E-06, 7e-6";
-    parameter Real Ks_c4 = 0.2 "0.14862982759843518 0.244986962, 0.1, 0.2";
-    parameter Real Ki_h2_pro = 3.5e-6 "5.650678716932053e-06 4.65E-06, 3.5e-6";
-    //  //Added on 26.03.2024 for tentative calibration before PoliMi-UsM-UDM
-    parameter Real Ks_su = 0.5;
-    parameter Real pH_UL_ac = 7;
+      //parameter Real k_hyd_xchr = 1 "0.32566743895306743, 0.45, 1";
+      parameter Real k_hyd_xchm = 0.3 "0.42319302147680693 0.28,0.3";
+      parameter Real k_hyd_xchs = 0.01 "0.016324478692379397 0.011, 0.01";
+      parameter Real k_hyd_xprr = 0.7 "1 0.7448677043180438 1.24, 1";
+      parameter Real k_hyd_xprs = 0.2 "0.21758908555328108 0.19, 0.2";
+      parameter Real k_hyd_xli = 0.3 "0.35010790985270795 0.449, 0.3";
+      //parameter Real k_m_su = 30 "7.875631490240984 11, 30";
+      parameter Real k_m_aa = 50 "12.535480801087115 10, 50";
+      parameter Real k_m_c4 = 20 "16.696872722083715 14, 20";
+      //parameter Real k_m_pro = 13 "14.961292134394824 18.9, 13";
+        //parameter Real k_m_ac = 8 "3.2111508857602047 5.1, 5.6, 8";
+        //parameter Real Ks_ac = 0.15 "0.21231036725029 0.443583441 , 0.15";
+        //parameter Real Ki_nh3_ac = 0.0018 "0.00140997793843472 0.00125268, 0.0071428571";
+        //parameter Real Ki_hac_ac = 2.2 "2.9917458204406238 8.06841945 , 2.2";
+        //parameter Real Ki_hpro_pro = 2.2 "7.08317113463713 2.2, 2.2";
+      parameter Real kla_pilot = 10 "3.185356158754692 5.821084588, 10";
+      parameter Real kla = 10 "12.243650647046891 10,10";
+      //parameter Real kla_batch = 10 "Not used in this model. Declare just for python calibration purposes";
+      //parameter Real k_m_h2 = 35 "54.19240185230841 35";
+      //  //Added on 17.01.2024
+      parameter Real Ki_h2_c4 = 1e-5;
+      //parameter Real Ks_pro = 0.1 "0.7397859560206168 0.5, 0.15";
+      //  //Added on 22.01.2024
+      //parameter Real Ks_h2 = 7e-6 "1.119241977682233e-05 6.88E-06, 7e-6";
+      parameter Real Ks_c4 = 0.2 "0.14862982759843518 0.244986962, 0.1, 0.2";
+      //parameter Real Ki_h2_pro = 3.5e-6 "5.650678716932053e-06 4.65E-06, 3.5e-6";
+      //  //Added on 26.03.2024 for tentative calibration before PoliMi-UsM-UDM
+      parameter Real Ks_su = 0.5;
+      //parameter Real pH_UL_ac = 7;
     //PARAMETRI DA CALIBRAZIONE 04/07 (DE iterations by Giulia)
     //  parameter Real k_hyd_xchr= 0.435278784;
     //  parameter Real k_m_su=23.4132556;
@@ -15084,6 +15084,21 @@ end Atmosphere;
     //parameter Real k_m_pro=21.24736216;
     //parameter Real k_m_ac=4.282800134;
     //parameter Real Ki_nh3_ac=0.003075375;
+    //PARAMETRI DA CALIBRAZIONE 26/07 (done by Davide with corrected 'hyperparameters' and Combi)
+      parameter Real k_hyd_xchr= 0.654105977345518;
+      parameter Real k_m_su=29.5230387359749;
+      parameter Real k_m_pro=5.289840719563;
+      parameter Real k_m_ac=4.90818614453702;
+      parameter Real Ks_ac=0.441003980200205;
+      parameter Real Ki_nh3_ac=0.00274048834778162;
+      parameter Real Ki_hac_ac=7.94406089183934;
+      parameter Real Ki_hpro_pro=3.26744250389993;
+      parameter Real kla_batch=1;
+      parameter Real Ks_pro=0.08;
+      parameter Real k_m_h2=21.3838200665712;
+      parameter Real Ks_h2=0.0000135448145481595;
+      parameter Real Ki_h2_pro=2.22379010526246E-06;
+      parameter Real pH_UL_ac=7.96322443907504;
     // Parmater slurry
     parameter Real f_pr_r_slurry = 0.5;
     parameter Real f_pr_s_slurry = 0.5;
