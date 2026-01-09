@@ -164,6 +164,7 @@ cython_debug/
 *.lic
 *.LIC
 *.gz
+*.drawio
 
 #Subfolders
 Private/

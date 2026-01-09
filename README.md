@@ -24,9 +24,9 @@ The tool was used primarily for:
 - [**Model calibration Pseudo-Code**](./Model_calibration_pseudo_code.pdf)  
   Simple conceptual guidance to clarify the work pipeline to be carried out when calibrating the model (adapt it to a specific case-study).
 
-- [**BIOGOALS.agri-AcoDM User Manual**](./BIOGOALS.AGRI-ACODM.pdf)  
+- [**BIOGOALS.agri-AcoDM User Manual**](./BIOGOALS.AGRI-ACODM_USER_MANUAL.pdf)  
   Comprehensive documentation of the repository structure and main scripts:
-  - [`/agri-AcoDM.mo`](./UIT_implementation/UIT_selectorPI_operative.py)
+  - [`/agri-AcoDM.mo`](./agri-AcoDM.mo)
   - [`/Integration/Intgrate.ipynb`](./Integration/Intgrate.ipynb)
   - [`/Parameter_estimation/Parameter_estimation.ipynb`](./Parameter_estimation/Parameter_estimation.ipynb)
   - [`/Parameter_estimation/Parameter_uncertainty_linear.ipynb`](./Parameter_estimation/Parameter_uncertainty_linear.ipynb)
