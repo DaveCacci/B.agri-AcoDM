@@ -181,5 +181,6 @@ Pilot_plant_steady/
 Plant_Wide_Model/
 Reinit_blocks/
 VectorStreams/
+Parameter_estimation/test_param_estim/
 
 

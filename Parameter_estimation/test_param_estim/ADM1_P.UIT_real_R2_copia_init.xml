@@ -9,11 +9,11 @@
 
   OPENMODELICAHOME                    = "C:/Program Files/OpenModelica1.21.0-64bit"
 
-  guid                                = "{a58dd504-3ff0-493b-92ef-f0b4b4df86f2}"
+  guid                                = "{5e15de69-6998-4f2b-8d85-cf1da3c9a920}"
 
   description                         = ""
   generationTool                      = "OpenModelica Compiler OpenModelica v1.21.0 (64-bit)"
-  generationDateAndTime               = "2026-01-14T09:56:02Z"
+  generationDateAndTime               = "2026-01-14T20:05:40Z"
 
   variableNamingConvention            = "structured"
 
@@ -5372,7 +5372,7 @@
     classIndex = "301" classType = "rAlg"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "569" startColumn = "5" endLine = "569" endColumn = "15" fileWritable = "true">
-    <Real start="0.04116821243002362" fixed="false" useNominal="false" />
+    <Real start="0.03321855509167483" fixed="false" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "uit.digester.I_pH_aa"
@@ -19843,7 +19843,7 @@
     classIndex = "1" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13090" startColumn = "7" endLine = "13090" endColumn = "52" fileWritable = "true">
-    <Real start="2.61e-06" fixed="true" useNominal="false" />
+    <Real start="1.91e-06" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "Ki_hac_ac"
@@ -19854,7 +19854,7 @@
     classIndex = "2" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13084" startColumn = "7" endLine = "13084" endColumn = "48" fileWritable = "true">
-    <Real start="5.07761074" fixed="true" useNominal="false" />
+    <Real start="5.55145986" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "Ki_hpro_pro"
@@ -19865,7 +19865,7 @@
     classIndex = "3" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13085" startColumn = "7" endLine = "13085" endColumn = "50" fileWritable = "true">
-    <Real start="2.58157335" fixed="true" useNominal="false" />
+    <Real start="4.02218649" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "Ki_nh3_ac"
@@ -19876,7 +19876,7 @@
     classIndex = "4" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13083" startColumn = "7" endLine = "13083" endColumn = "51" fileWritable = "true">
-    <Real start="0.00344228" fixed="true" useNominal="false" />
+    <Real start="0.00275473" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "Ks_ac"
@@ -19887,7 +19887,7 @@
     classIndex = "5" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13082" startColumn = "7" endLine = "13082" endColumn = "45" fileWritable = "true">
-    <Real start="0.43581064" fixed="true" useNominal="false" />
+    <Real start="0.63498981" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "Ks_c4"
@@ -19910,7 +19910,7 @@
     classIndex = "7" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13089" startColumn = "7" endLine = "13089" endColumn = "49" fileWritable = "true">
-    <Real start="9.78e-06" fixed="true" useNominal="false" />
+    <Real start="1.458e-05" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "Ks_pro"
@@ -19921,7 +19921,7 @@
     classIndex = "8" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13087" startColumn = "7" endLine = "13087" endColumn = "33" fileWritable = "true">
-    <Real start="0.07314697000000001" fixed="true" useNominal="false" />
+    <Real start="0.07851911" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "Ks_su"
@@ -21362,7 +21362,7 @@
     classIndex = "132" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13078" startColumn = "7" endLine = "13078" endColumn = "51" fileWritable = "true">
-    <Real start="1.1145978" fixed="true" useNominal="false" />
+    <Real start="0.6158266100000001" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "k_hyd_xchs"
@@ -21433,7 +21433,7 @@
     classIndex = "138" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13081" startColumn = "7" endLine = "13081" endColumn = "45" fileWritable = "true">
-    <Real start="3.02474515" fixed="true" useNominal="false" />
+    <Real start="6.64053369" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "k_m_c4"
@@ -21456,7 +21456,7 @@
     classIndex = "140" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13088" startColumn = "7" endLine = "13088" endColumn = "45" fileWritable = "true">
-    <Real start="16.1786609" fixed="true" useNominal="false" />
+    <Real start="13.45406283" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "k_m_pro"
@@ -21467,7 +21467,7 @@
     classIndex = "141" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13080" startColumn = "7" endLine = "13080" endColumn = "44" fileWritable = "true">
-    <Real start="5.18042275" fixed="true" useNominal="false" />
+    <Real start="7.32344025" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "k_m_su"
@@ -21478,7 +21478,7 @@
     classIndex = "142" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13079" startColumn = "7" endLine = "13079" endColumn = "45" fileWritable = "true">
-    <Real start="28.8607641" fixed="true" useNominal="false" />
+    <Real start="53.97043664" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "kla"
@@ -21501,7 +21501,7 @@
     classIndex = "144" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13086" startColumn = "7" endLine = "13086" endColumn = "33" fileWritable = "true">
-    <Real start="1.14438334" fixed="true" useNominal="false" />
+    <Real start="1.13734896" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "kla_pilot"
@@ -21572,7 +21572,7 @@
     classIndex = "150" classType = "rPar"
     isProtected = "false" hideResult = "" initNonlinear = "false"
     fileName = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant/ADM1_X_14_03_2024_batch_GQ - Copia.mo" startLine = "13091" startColumn = "7" endLine = "13091" endColumn = "47" fileWritable = "true">
-    <Real start="7.42946783" fixed="true" useNominal="false" />
+    <Real start="7.79198855" fixed="true" useNominal="false" />
   </ScalarVariable>
   <ScalarVariable
     name = "pH_bar.k"

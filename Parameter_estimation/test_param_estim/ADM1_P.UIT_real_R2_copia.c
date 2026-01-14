@@ -19997,7 +19997,7 @@ void ADM1_P_UIT_real_R2_copia_setupDataStruc(DATA *data, threadData_t *threadDat
   data->modelData->modelFilePrefix = "ADM1_P.UIT_real_R2_copia";
   data->modelData->resultFileName = NULL;
   data->modelData->modelDir = "C:/Users/lenovo/OneDrive - Politecnico di Milano/Work_cloud/DOTTORATO/Modelling/Pilot_plant";
-  data->modelData->modelGUID = "{a58dd504-3ff0-493b-92ef-f0b4b4df86f2}";
+  data->modelData->modelGUID = "{5e15de69-6998-4f2b-8d85-cf1da3c9a920}";
   #if defined(OPENMODELICA_XML_FROM_FILE_AT_RUNTIME)
   data->modelData->initXMLData = NULL;
   data->modelData->modelDataXml.infoXMLData = NULL;
