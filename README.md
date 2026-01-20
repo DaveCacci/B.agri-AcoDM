@@ -83,7 +83,7 @@ The tool was used primarily for:
 ### Notes
 
 - Markdown links (`./folder/file`) are used for proper GitHub rendering.  
-- Python 3.10+ is required for the RPi implementation.
+- Python 3.10+ is required.
 - Future work are needed to combine the results of the nonlinear constrained *off-line* optimization of the diet with the ones of the *BIOGoAlS.TE-LP* tool (simplified techno-economic/supply-chain prospective).
 - The *off-line* optimization of the diet done with the **Optimization_diet.ipynb** notebook can be easily extended from the maximization of biomethane production to maximization of the plant profit (techno-economic framework). 
 - Extensive use of the custom functions present inside the **general_utils** library (download it from [GitHub](https://github.com/DaveCacci/general_utils.git) repository).
