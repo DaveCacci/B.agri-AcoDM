@@ -3,7 +3,7 @@
 
 ---
 
-**BIOGoAlS.agri-AcoDM** is a comprehensive high-fidelity model tool designed for scenario analysis, *off-line* optimization of the diet input mix to maximize the plant performance (e.g. enhence biomethane production) and to mimic a real plant in the numerical validation of 'lower-level' controllers.
+**BIOGoAlS.agriAcoDM** is a comprehensive high-fidelity model tool designed for scenario analysis, *off-line* optimization of the diet input mix to maximize the plant performance (e.g. enhence biomethane production) and to mimic a real plant in the numerical validation of 'lower-level' controllers.
 
 The tool was used primarily for:
 - Conduct the *off-line* optimization of the diet input mix to set the reference controller's setpoints for the experimental campaigns
