@@ -166,6 +166,7 @@ cython_debug/
 *.gz
 *.drawio
 *.png
+*.bkp
 
 #Subfolders
 Private/
@@ -184,6 +185,7 @@ Reinit_blocks/
 VectorStreams/
 Parameter_estimation/test_param_estim/
 Model_calibration.drawio
+Feedstock_characterization.pdf
 
 
 
