@@ -3,7 +3,7 @@
 
 ---
 
-**BIOGoAlS.agriAcoDM** is a comprehensive high-fidelity model tool designed for scenario analysis, *off-line* optimization of the diet input mix to maximize the plant performance (e.g. enhence biomethane production) and to mimic a real plant in the numerical validation of 'lower-level' controllers.
+**BIOGoAlS.agri-AcoDM** is a comprehensive high-fidelity model tool designed for scenario analysis, *off-line* optimization of the diet input mix to maximize the plant performance (e.g. enhence biomethane production) and to mimic a real plant in the numerical validation of 'lower-level' controllers.
 
 The tool was used primarily for:
 - Conduct the *off-line* optimization of the diet input mix to set the reference controller's setpoints for the experimental campaigns
@@ -16,7 +16,7 @@ The tool was used primarily for:
 ### Documentation
 
 - [**OpenModelica Software User Manual**](./OpenModelicaUsersGuide-latest.pdf)  
-  User manual to start work with the **agri-AcoDM.mo** library in OpenModelica and the Modelica language in general.
+  User manual to start work with the **agriAcoDM.mo** library in OpenModelica and the Modelica language in general.
 
   - [**OpenModelica Compiler Software User Manual**](./OMC_API-HowTo.pdf)  
   List of commands that can be user when calling the OpenModelica Compiler (OMC) from Python (used in almost all the notebooks by the **modelica_integrator.py** function, present in the **general_utils** library).
@@ -24,9 +24,9 @@ The tool was used primarily for:
 - [**Model calibration Pseudo-Code**](./Model_calibration_pseudo_code.pdf)  
   Simple conceptual guidance to clarify the work pipeline to be carried out when calibrating the model (adapt it to a specific case-study).
 
-- [**BIOGOALS.agri-AcoDM User Manual**](./BIOGOALS.AGRI-ACODM_USER_MANUAL.pdf)  
+- [**BIOGOALS.agriAcoDM User Manual**](./BIOGOALS.AGRI-ACODM_USER_MANUAL.pdf)  
   Comprehensive documentation of the repository structure and main scripts:
-  - [`/agri-AcoDM.mo`](./agri-AcoDM.mo)
+  - [`/agriAcoDM.mo`](./agriAcoDM.mo)
   - [`/Integration/Intgrate.ipynb`](./Integration/Intgrate.ipynb)
   - [`/Parameter_estimation/Parameter_estimation.ipynb`](./Parameter_estimation/Parameter_estimation.ipynb)
   - [`/Parameter_estimation/Parameter_uncertainty_linear.ipynb`](./Parameter_estimation/Parameter_uncertainty_linear.ipynb)
@@ -34,13 +34,19 @@ The tool was used primarily for:
   - [`/Sensitivity_ParameterSweep/Sensitivity_local_OAT.ipynb`](./Sensitivity_ParameterSweep/Sensitivity_local_OAT.ipynb)
   - [`/Sensitivity_ParameterSweep/Sensitivity_global_Sobol.ipynb`](./Sensitivity_ParameterSweep/Sensitivity_global_Sobol.ipynb)
 
+- [**Python Requirements**](./requirements.txt)  
+  List of Python packages required to run the notebooks and scripts in this repository.
+
+- [**Windows Python 3.11 + Jupyter Setup Guide**](./SETUP_WINDOWS_PY311_JUPYTER.md)  
+  Step-by-step instructions to configure Python 3.11, VS Code, and Jupyter on Windows.
+
 ---
 
 ### Inside the `/CombiTimeTables` folder:
 
-- **Jupyter Notebook** to convert data stored in a CSV file to proper TXT format, for it to be read inside the models of the **agri-AcoDM.mo** Modelica library.
+- **Jupyter Notebook** to convert data stored in a CSV file to proper TXT format, for it to be read inside the models of the **agriAcoDM.mo** Modelica library.
 
-- **Examples** of TXT files used inside the **agri-AcoDM.mo**.
+- **Examples** of TXT files used inside the **agriAcoDM.mo**.
 
 ---
 
@@ -54,7 +60,7 @@ The tool was used primarily for:
 
 ### Inside the `/Integration` folder:
 
-- **Jupyter Notebook** to simply integrate whatever model inside the **agri-AcoDM.mo** library, extract, save and plot the dynamic trajectories of interest.
+- **Jupyter Notebook** to simply integrate whatever model inside the **agriAcoDM.mo** library, extract, save and plot the dynamic trajectories of interest.
 
 - **Example** of notebook's output.
 
@@ -62,7 +68,7 @@ The tool was used primarily for:
 
 ### Inside the `/Parameter_estimation` folder:
 
-- **Jupyter Notebook** to estimate the parameters of a model inside the **agri-AcoDM.mo** library.
+- **Jupyter Notebook** to estimate the parameters of a model inside the **agriAcoDM.mo** library.
 
 - **Jupyter Notebooks** to quantify and propagate the uncertainty of the parameter estimates.
 
@@ -72,7 +78,7 @@ The tool was used primarily for:
 
 ### Inside the `/Sensitivity_ParameterSweep` folder:
 
-- **Jupyter Notebook** to simply conduct a 'parameter sweep'/Monte Carlo analysis (i.e. multiple model's simulations) of a model inside the **agri-AcoDM.mo** library.
+- **Jupyter Notebook** to simply conduct a 'parameter sweep'/Monte Carlo analysis (i.e. multiple model's simulations) of a model inside the **agriAcoDM.mo** library.
 
 - **Jupyter Notebooks** to simply conduct sensitivity and collinearity analyses (Parameter Subset Selection (PSS)) of some model's outputs to some model's parameters (practical identifiability analysis).
 
