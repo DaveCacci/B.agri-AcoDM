@@ -15,14 +15,29 @@ The tool was used primarily for:
 
 ### Documentation
 
+- [**Python Requirements**](./requirements.txt)  
+  List of Python packages required to run the notebooks and scripts in this repository.
+
+- [**Windows Python 3.11 + Jupyter Setup Guide**](./SETUP_WINDOWS_PY311_JUPYTER.md)  
+  Step-by-step instructions to configure Python 3.11, VS Code, and Jupyter on Windows.
+
 - [**OpenModelica Software User Manual**](./OpenModelicaUsersGuide-latest.pdf)  
   User manual to start work with the **agriAcoDM.mo** library in OpenModelica and the Modelica language in general.
 
-  - [**OpenModelica Compiler Software User Manual**](./OMC_API-HowTo.pdf)  
+- [**OpenModelica Compiler Software User Manual**](./OMC_API-HowTo.pdf)  
   List of commands that can be user when calling the OpenModelica Compiler (OMC) from Python (used in almost all the notebooks by the **modelica_integrator.py** function, present in the **general_utils** library).
 
 - [**Model calibration Pseudo-Code**](./Model_calibration_pseudo_code.pdf)  
   Simple conceptual guidance to clarify the work pipeline to be carried out when calibrating the model (adapt it to a specific case-study).
+
+- [**Model calibration Visual Scheme**](./Model_calibration_scheme_general.pdf)  
+  Simple conceptual visual representation to clarify the work pipeline to be carried out when calibrating the model (adapt it to a specific case-study).
+
+- [**agri-AcoDM Visual Scheme**](./agri-AcoDM_model_scheme.pdf)  
+  Simple conceptual visual representation to clarify the main variables and processes included in the agri-AcoDM model.
+
+- [**Feedstock characterization Visual Scheme**](./Feedstock_characterization_myapp.pdf)  
+  Simple conceptual visual representation to clarify the main approch to feedstock characterization used in the agri-AcoDM model.
 
 - [**BIOGOALS.agriAcoDM User Manual**](./BIOGOALS.AGRI-ACODM_USER_MANUAL.pdf)  
   Comprehensive documentation of the repository structure and main scripts:
@@ -33,12 +48,6 @@ The tool was used primarily for:
   - [`/Sensitivity_ParameterSweep/Parameter_sweep.ipynb`](./Sensitivity_ParameterSweep/Parameter_sweep.ipynb)
   - [`/Sensitivity_ParameterSweep/Sensitivity_local_OAT.ipynb`](./Sensitivity_ParameterSweep/Sensitivity_local_OAT.ipynb)
   - [`/Sensitivity_ParameterSweep/Sensitivity_global_Sobol.ipynb`](./Sensitivity_ParameterSweep/Sensitivity_global_Sobol.ipynb)
-
-- [**Python Requirements**](./requirements.txt)  
-  List of Python packages required to run the notebooks and scripts in this repository.
-
-- [**Windows Python 3.11 + Jupyter Setup Guide**](./SETUP_WINDOWS_PY311_JUPYTER.md)  
-  Step-by-step instructions to configure Python 3.11, VS Code, and Jupyter on Windows.
 
 ---
 
@@ -93,6 +102,7 @@ The tool was used primarily for:
 - Future work are needed to combine the results of the nonlinear constrained *off-line* optimization of the diet with the ones of the *BIOGoAlS.TE-LP* tool (simplified techno-economic/supply-chain prospective).
 - The *off-line* optimization of the diet done with the **Optimization_diet.ipynb** notebook can be easily extended from the maximization of biomethane production to maximization of the plant profit (techno-economic framework). 
 - Extensive use of the custom functions present inside the **general_utils** library (download it from [GitHub](https://github.com/DaveCacci/general_utils.git) repository).
+- For further details, please refer also to the PhD thesis of the author (visit [POLItesi](https://www.politesi.polimi.it/) or request a copy to <davide.carecci@polimi.it>).
 
 ---
 
