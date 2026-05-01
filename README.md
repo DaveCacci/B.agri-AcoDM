@@ -15,11 +15,11 @@ The tool was used primarily for:
 
 ### Documentation
 
-- [**Python Requirements**](./requirements.txt)  
-  List of Python packages required to run the notebooks and scripts in this repository.
-
 - [**Windows Python 3.11 + Jupyter Setup Guide**](./SETUP_WINDOWS_PY311_JUPYTER.md)  
   Step-by-step instructions to configure Python 3.11, VS Code, and Jupyter on Windows.
+
+- [**Python Requirements**](./requirements.txt)  
+  List of Python packages required to run the notebooks and scripts in this repository.
 
 - [**OpenModelica Software User Manual**](./OpenModelicaUsersGuide-latest.pdf)  
   User manual to start work with the **agriAcoDM.mo** library in OpenModelica and the Modelica language in general.
