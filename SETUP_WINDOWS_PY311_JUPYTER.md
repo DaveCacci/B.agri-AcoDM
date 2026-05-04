@@ -11,6 +11,20 @@ Use **VS Code + official Python and Jupyter extensions** and let VS Code manage 
 
 Note: VS Code cannot run Python notebooks without a real Python runtime. So Python still needs to be installed, but VS Code can guide and automate interpreter/kernels better.
 
+Note: this project uses Git LFS to manage large files.
+  Git LFS Setup*:
+  1. Install Git LFS
+    https://git-lfs.github.com/
+  2. Clone the repository
+    git clone <repo-url>
+    cd <repo>
+  3. Download LFS files
+    git lfs pull
+  * Common issue
+    If you downloaded the ZIP, you may see files of ~1 KB.
+    These are placeholders and not the actual files.
+    Solution: clone the repo using Git as shown above.
+
 ---
 
 ## Option A: VS Code-managed setup (recommended)

@@ -104,6 +104,15 @@ The tool was used primarily for:
 - Extensive use of the custom functions present inside the **general_utils** library (download it from [GitHub](https://github.com/DaveCacci/general_utils.git) repository).
 - For further details, please refer also to the PhD thesis of the author (visit [POLItesi](https://www.politesi.polimi.it/) or request a copy to <davide.carecci@polimi.it>).
 
+- ⚠️ Important: Git LFS Required
+  This repository uses Git LFS (Large File Storage).
+  ❌ Do NOT download the project using "Download ZIP" — files will be incomplete.
+  ✅ Instead, clone the repository:
+
+  git clone <repo-url>
+  cd <repo>
+  git lfs pull
+
 ---
 
 © 2026 Davide Carecci — All rights reserved.
