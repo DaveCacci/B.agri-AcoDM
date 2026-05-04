@@ -1,12 +1,13 @@
 **Author:** Davide Carecci  
 **Initial commit:** 07.01.2026  
 ⚠️ This repo uses Git LFS - do not download as ZIP (see Notes section of this README).
+⚠️ The **general_utils** library contains also a user manual to setup VSCode/Python for non-expert users and the list of the required standard Python libraries (download it from the [GitHub](https://github.com/DaveCacci/general_utils.git) repository).
 
 ---
 
 **BIOGoAlS.agri-AcoDM** is a comprehensive high-fidelity model tool designed for scenario analysis, *off-line* optimization of the diet input mix to maximize the plant performance (e.g. enhence biomethane production) and to mimic a real plant in the numerical validation of 'lower-level' controllers.
 
-The tool was used primarily for:
+The tool is used primarily for:
 - Conduct the *off-line* optimization of the diet input mix to set the reference controller's setpoints for the experimental campaigns
 - Validate in simulation the *BIOGoAlS.Select* tool
 - Provide an informative "synthetic" dataset for the 'first-stage' calibration of the reduced-order/control-oriented model used in the *BIOGoAlS.Twin* tool
@@ -15,12 +16,6 @@ The tool was used primarily for:
 ---
 
 ### Documentation
-
-- [**Windows Python 3.11 + Jupyter Setup Guide**](./SETUP_WINDOWS_PY311_JUPYTER.md)  
-  Step-by-step instructions to configure Python 3.11, VS Code, and Jupyter on Windows.
-
-- [**Python Requirements**](./requirements.txt)  
-  List of Python packages required to run the notebooks and scripts in this repository.
 
 - [**OpenModelica Software User Manual**](./OpenModelicaUsersGuide-latest.pdf)  
   User manual to start work with the **agriAcoDM.mo** library in OpenModelica and the Modelica language in general.
