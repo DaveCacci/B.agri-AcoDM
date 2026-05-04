@@ -1,5 +1,6 @@
 **Author:** Davide Carecci  
 **Initial commit:** 07.01.2026  
+⚠️ This repo uses Git LFS - do not download as ZIP (see Notes section of this README).
 
 ---
 
@@ -109,9 +110,9 @@ The tool was used primarily for:
   ❌ Do NOT download the project using "Download ZIP" — files will be incomplete.
   ✅ Instead, clone the repository:
 
-  git clone <repo-url>
-  cd <repo>
-  git lfs pull
+  `git clone <repo-url>`
+  `cd <repo>`
+  `git lfs pull`
 
 ---
 

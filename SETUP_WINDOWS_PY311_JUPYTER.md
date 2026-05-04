@@ -13,13 +13,15 @@ Note: VS Code cannot run Python notebooks without a real Python runtime. So Pyth
 
 Note: this project uses Git LFS to manage large files.
   Git LFS Setup*:
-  1. Install Git LFS
-    https://git-lfs.github.com/
+  1. Install Git
+    https://git-scm.com/
+  2. Install Git LFS. In cmd terminal:
+    `git lfs install`
   2. Clone the repository
-    git clone <repo-url>
-    cd <repo>
+    `git clone <repo-url>`
+    `cd <repo>`
   3. Download LFS files
-    git lfs pull
+    `git lfs pull`
   * Common issue
     If you downloaded the ZIP, you may see files of ~1 KB.
     These are placeholders and not the actual files.
