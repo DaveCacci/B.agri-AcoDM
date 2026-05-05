@@ -38,6 +38,7 @@ The tool is used primarily for:
 - [**BIOGOALS.agriAcoDM User Manual**](./BIOGOALS.AGRI-ACODM_USER_MANUAL.pdf)  
   Comprehensive documentation of the repository structure and main scripts:
   - [`/agriAcoDM.mo`](./agriAcoDM.mo)
+  - [`/Diet_optimization/Optimization_diet.ipynb`](./Diet_optimization/Optimization_diet.ipynb)
   - [`/Integration/Intgrate.ipynb`](./Integration/Intgrate.ipynb)
   - [`/Parameter_estimation/Parameter_estimation.ipynb`](./Parameter_estimation/Parameter_estimation.ipynb)
   - [`/Parameter_estimation/Parameter_uncertainty_linear.ipynb`](./Parameter_estimation/Parameter_uncertainty_linear.ipynb)
