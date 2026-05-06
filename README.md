@@ -7,7 +7,7 @@
 
 **BIOGoAlS.agri-AcoDM** is a comprehensive high-fidelity model tool designed for scenario analysis, *off-line* optimization of the diet input mix to maximize the plant performance (e.g. enhence biomethane production) and to mimic a real plant in the numerical validation of 'lower-level' controllers.
 
-The tool is used primarily for:
+The tool is used primarily to:
 - Conduct the *off-line* optimization of the diet input mix to set the reference controller's setpoints for the experimental campaigns
 - Validate in simulation the *BIOGoAlS.Select* tool
 - Provide an informative "synthetic" dataset for the 'first-stage' calibration of the reduced-order/control-oriented model used in the *BIOGoAlS.Twin* tool
@@ -89,6 +89,12 @@ The tool is used primarily for:
 - **Jupyter Notebooks** to simply conduct sensitivity and collinearity analyses (Parameter Subset Selection (PSS)) of some model's outputs to some model's parameters (practical identifiability analysis).
 
 - **Example** of notebook's output.
+
+---
+
+### Inside the `/Data` folder:
+
+- **Example** of process data required to run the notebooks.
 
 ---
 
